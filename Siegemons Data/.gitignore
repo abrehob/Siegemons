@@ -1,0 +1,4 @@
+# Ignore the ai.pyc file since it is recompiled every time you run the program
+ai.pyc
+# Ignore the Pycharm folder
+.idea
