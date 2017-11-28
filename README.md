@@ -39,7 +39,16 @@ c: defend
 i: potion  
 e: attempt to escape  
 f: use fireball  
-q: exit program  
+q: exit program
+
+### Running the program:
+
+Open a Terminal window (I'm assuming you're using a Mac) and enlarge it to fill the screen. After cloning this repository and entering the top-level directory, execute the following commands:  
+`cd FP_siege_abrehob_becgabri_kreault_smokhtar/`  
+`python2.7 ./driver.py`
+
+By default, the AI will run for the program. It runs relatively fast, so you can press the "Enter" key to stop the AI and look back at what it did. You can let the AI continue to run if you press the "Enter" key again (you might have to press it twice).  
+If you want to play the game yourself, just edit the top of the "ai.py" file and change "USE_AI = True" to "USE_AI = False".
 
 ## Siegemons:
 
@@ -51,3 +60,11 @@ Encounters are almost exactly the same as in 183 Siege except for a couple of th
 You don't use weapons with attack power and durability, but rather Siegemons with level and health  
 When you battle, instead of you getting damaged, your active Siegemon gets damaged  
 When you win a battle, you have the option of having the opposing fainted Siegemon join your team (with full health)
+
+### Running the program:
+
+Open a Terminal window and enlarge it to fill the screen. Execute the following commands:  
+`cd Siegemons/Siegemons\ Data/`  
+`python2.7 ./driver.py`
+
+Note: there is no AI for this game
