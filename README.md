@@ -64,7 +64,7 @@ When you win a battle, you have the option of having the opposing fainted Siegem
 ### Running the program:
 
 Open a Terminal window and enlarge it to fill the screen. Execute the following commands:  
-`cd Siegemons/Siegemons\ Data/`  
+`cd Siegemons\ Data/`  
 `python2.7 ./driver.py`
 
 Note: there is no AI for this game.
