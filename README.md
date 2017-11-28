@@ -67,4 +67,4 @@ Open a Terminal window and enlarge it to fill the screen. Execute the following 
 `cd Siegemons/Siegemons\ Data/`  
 `python2.7 ./driver.py`
 
-Note: there is no AI for this game
+Note: there is no AI for this game.
